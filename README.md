@@ -1,0 +1,2 @@
+# MySPMPlugin
+SPM test
