@@ -1,0 +1,55 @@
+# Xcode
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.moved-aside
+*.xcuserdatad
+
+# SwiftPM
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# other OS
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Binary
+*.dSYM
+
+# build products
+build/
+
+# Xcode Previews
+*.preview-thumbnails
+
+# Vim / Emacs / VSCode editors
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Bundler / CocoaPods
+Pods/
+Gemfile.lock
+
+# Binary artifacts cache for Swift Package Index
+.artifacts/
+
+# SwiftLint cache
+.swiftlint.yml
+.swiftlint.tmp
+
