@@ -7,13 +7,13 @@ let package = Package(
     name: "MySPMPlugin",
     platforms: [.macOS(.v13)],
     products: [
-        .plugin(name: "MySPMPlugin", targets: ["MySPMPlugin"]),
+        .plugin(name: "MySPMPlugin", targets: ["MyPlugin"]),
     ],
     dependencies: [
     ],
     targets: [
         .plugin(
-            name: "MySPMPlugin",
+            name: "MyPlugin",
             capability: .buildTool(),
             dependencies: ["MyHelper"]
         ),
