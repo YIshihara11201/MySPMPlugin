@@ -18,7 +18,7 @@ let package = Package(
             dependencies: ["MyHelper"]
         ),
         .executableTarget(
-            name: "MyHelper",
+            name: "MyHelper"
         )
     ]
 )
